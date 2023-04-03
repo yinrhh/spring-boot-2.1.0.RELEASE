@@ -38,6 +38,7 @@ import org.springframework.context.ResourceLoaderAware;
  *
  * @author Phillip Webb
  * @since 1.5.0
+ * 具有 3 个子类。
  */
 @FunctionalInterface
 public interface AutoConfigurationImportFilter {

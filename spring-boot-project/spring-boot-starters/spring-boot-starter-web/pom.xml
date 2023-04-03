@@ -15,6 +15,7 @@
 		<main.basedir>${basedir}/../../..</main.basedir>
 	</properties>
 	<dependencies>
+		<!--spring-boot-starter-web起步依赖的自动配置功能原来是由spring-boot-autoconfigure模块的web包下的类实现的-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
